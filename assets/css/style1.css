@@ -1,0 +1,277 @@
+main {
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Jost', 'Red Hat Display';
+    
+}
+@font-face {
+    font-family: 'Jost';
+    src: url();
+}
+
+/* Styling of Navigation bar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav, .gmail {
+    margin-right: 20px;
+}
+
+nav, .images {
+    margin-right: 20px;
+}
+
+nav, .googleaccounts {
+    margin-right: 20px;
+}
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+img:hover {
+    box-shadow: 2px 2px 15px rgba(0,0,0, 0.3);
+}
+
+.signin {
+    background-color: crimson;
+    width: 20px;
+    margin-top: 8px;
+    height: 20px;
+    border-radius: 30px;
+    padding: 7px;
+    text-align: center;
+    padding-top: px;
+    color: white;
+    font-weight: 1000;
+}
+
+.signin:hover {
+    text-decoration: none;
+    background-color: blue;
+
+}
+/* Navigation bar styling ends */
+
+/* 
+Main page styling */
+ .innercontainer {
+    display: grid;
+    margin-top: 5px;
+    place-content: center;
+    
+/* Google class styling */
+}
+.google {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: 654;
+    margin-bottom: 20px;
+}
+
+.g {
+    color: rgb(0, 139, 255);
+}
+
+.o1, .e {
+    color: rgb(214, 0,0);
+    margin-left: -5px;
+}
+
+.o2 {
+    color: rgb(255, 165, 0);
+    margin-left: -5px;
+}
+
+.l {
+    color: rgb(0, 137, 0);
+    margin-left: -5px;
+}
+
+/* Google class styling ends */
+
+/* Search box styling */
+
+.searchbox {
+    max-width: 600px;
+    margin: auto;
+}
+
+.input-icon i {
+    position: absolute;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    font-size: 1rem;
+}
+
+.fa-microphone {
+    padding: 10px;
+    /* padding-left: 480px; */
+    padding-top: 15px;
+    color: blue;
+    min-width: 40px;
+    left: 880px;
+}
+
+.fa-camera {
+    padding: 10px;
+    /* padding-left: 510px; */
+    padding-top: 15px;
+    color: green;
+    min-width: 40px;
+    left: 910px;
+}
+
+.input-icon {
+    width: 100%;
+}
+
+.fa-magnifying-glass {
+    padding: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    min-width: 40px;
+    color: rgb(255, 165, 0);
+}
+
+#search-text {
+    width: 500px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border:1px solid hsl(0, 0%, 72%);
+    height: 20px;
+}
+
+#search-text::placeholder {
+    opacity: 0.7;
+    font-family: 'Red Hat Display';
+    font-style: italic;
+}
+
+#search-text:hover {
+    box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    
+}
+#search-text:hover::placeholder {
+    color: white;
+}
+
+#search-text:focus {
+    outline: none;
+}
+/* Search box styling ends */
+
+/* Buttons class styling */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.gsearch, .lucky {
+    width: 120px;
+    height: 40px;
+    margin-right: 20px;
+    border: 1px none hsl(0, 0%, 72%);
+    border-radius: 7px;
+    font-weight: 545;
+}
+
+.lucky:hover, .gsearch:hover {
+    border: 1px none hsl(0, 0%, 72%);
+    box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, orange, yellow);
+}
+/* End of buttons class styling */
+
+/* Text class styling */
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .text p {
+    text-decoration: none;
+ }
+ 
+ .text a:link {
+    color: grey;
+ }
+.text a:hover {
+    text-decoration: underline;
+}
+
+.innertext, .hausa, .igbo, .yoruba, .pidgin {
+    margin-right: 5px;
+}
+
+/* Text class styling ends */
+/* Footer styling */
+
+.wrapper {
+    margin-top: 130px;
+    margin-left: -10px;
+    margin-right: -7px;
+    background-color: #f2f2f2;
+}
+
+.ttext {
+   padding: 15px 30px;
+   color: hsl(0, 0%, 30%);
+   border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.secondfooter {
+    display: flex;
+    flex-direction: row;
+    padding:1px 30px;
+    margin-top: -15px;
+}
+.secondfooter p a:link {
+    color: hsl(0, 0%, 30%);
+}
+
+.ff, .sf, .tf {
+    display: flex;
+}
+
+
+.about, .advertising, .business, .how {
+    margin-right: 15px;
+}
+
+.sf {
+    margin-right: 60px;
+    margin-left: 200px;
+}
+
+.sf i  {
+    margin-top: 18px;
+    margin-right: 10px;
+    color: hsl(0, 0%, 40%);
+}
+
+.tf {
+    margin-left: 280px;
+}
+.privacy, .terms {
+    margin-right: 15px;
+}
+
+.ttext:hover {
+    text-decoration: none;
+}
+
