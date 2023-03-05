@@ -6,12 +6,12 @@ main {
 }
 @font-face {
     font-family: 'Jost';
-    src: url(../assets/webfonts/Jost-VariableFont_wght.ttf);
+    src: url(./assets/webfonts/Jost-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: 'Jost Italic';
-    src: url(../assets/webfonts/Jost-Italic-VariableFont_wght.ttf);
+    src: url(./assets/webfonts/Jost-Italic-VariableFont_wght.ttf);
 }
 
 /* Styling of Navigation bar */
