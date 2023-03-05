@@ -2,6 +2,9 @@ main {
     background-color: white;
     font-size: 15px;
     font-family: 'Jost', 'Red Hat Display';
+    height: 100%;
+    position: fixed;
+    width: 100%;
     
 }
 @font-face {
@@ -227,10 +230,11 @@ Main page styling */
 /* Footer styling */
 
 .wrapper {
-    margin-top: 130px;
+    margin-top: 120px;
     margin-left: -10px;
     margin-right: -7px;
     background-color: #f2f2f2;
+    height: 100px;
 }
 
 .ttext {
